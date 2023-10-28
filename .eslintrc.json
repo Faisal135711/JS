@@ -9,7 +9,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "prevent-var-use": "warn",
+        "prohibit-unused-variables": "error",
+        // "prevent-var-use": "warn",
         // "max-function-length": ["error", {"max": 7}],
         // "find-payments": "error",
         // "prevent-payment": "error",
