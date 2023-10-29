@@ -17,4 +17,4 @@ let getBooks = new Promise((resolve) => {
     resolve('Get books');
 });
 
-getBooks().then(data => console.log(data)).catch(err => console.log(err));
+getBooks().then(data => console.log(data)).catch(err => console.log(err))
