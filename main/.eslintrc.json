@@ -8,8 +8,10 @@
         "ecmaVersion": 6,
         "sourceType": "module"
     },
+    "plugins": ["promise"],
     "rules": {
-        "prohibit-unused-variables": "error",
+        "promise/catch-or-return": "error",
+        // "prohibit-unused-variables": "error",
         // "prevent-var-use": "warn",
         // "max-function-length": ["error", {"max": 7}],
         // "find-payments": "error",
@@ -19,7 +21,7 @@
         "eqeqeq": "error",
         "no-unused-vars": "off",
         "no-restricted-imports": ["error", "underscore"],
-        "no-console": "error",
+        // "no-console": "error",
         "consistent-return": "error",
         "indent": [
             "error",
